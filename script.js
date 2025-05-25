@@ -10,7 +10,7 @@ updateCountdown();
 function updateCountdown() {
   const now = new Date();
   const target = new Date();
-  target.setHours(0, 0, 0, 0); // Set to midnight
+  target.setHours(24, 0, 0, 0); // Set to midnight
 
   const diff = target - now;
 
